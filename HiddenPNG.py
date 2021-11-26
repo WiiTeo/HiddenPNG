@@ -4,7 +4,7 @@ from tkinter.filedialog import *
 import os
 import sys
 
-filepath = askopenfilename(title="Ouvrir une image",filetypes=[('PNG Image File','.png'),('Other File','.*')])
+filepath = askopenfilename(title="Open a image",filetypes=[('PNG Image File','.png'),('Other File','.*')])
 
 fileopen = open(filepath, "a")
 
